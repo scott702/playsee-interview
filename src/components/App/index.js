@@ -5,15 +5,16 @@ import Header from 'components/Header'
 import Content from 'components/Content'
 
 const Root = styled.div`
-  width: 100%;
   height: 100%;
+  display: flex;
+  flex-flow: column;
 `
 
 const App = () => {
   return (
     <Root>
-      <Header />
-      <Content />
+      <Header className="header"/>
+      <Content className="content"/>
     </Root>
   )
 }
