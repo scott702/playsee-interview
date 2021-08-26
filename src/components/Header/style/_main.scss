@@ -1,0 +1,55 @@
+.header {
+  height: $header-height;
+  flex: 0 0 auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background: $header-bg;
+  border-bottom: 1px solid $hr;
+  color: $header-txt;
+  @include screen-device() {
+    z-index: 2;
+  }
+  @include mobile-device() {
+    z-index: 3;
+  }
+  .inner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    @include screen-device() {
+      padding: 16px 40px;
+    }
+    @include mobile-device() {
+      padding: 16px;
+    }
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    a {
+      display: inline-flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      text-decoration: none;
+      svg {
+        flex: 0 0 auto;
+        width: 21px;
+        height: 28px;
+        margin-right: 8px;
+      }
+      > span {
+        color: $header-title;
+        @include fz(18);
+        font-weight: 500;
+      }
+    }
+  }
+}

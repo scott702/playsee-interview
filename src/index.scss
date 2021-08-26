@@ -1,0 +1,16 @@
+@import url(https://use.typekit.net/ptk2nmt.css);
+@import 'assets/style/_variables.scss';
+@import 'assets/style/_mixins.scss';
+
+body {
+  font-family: $default-font;
+  @include fz(14);
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}

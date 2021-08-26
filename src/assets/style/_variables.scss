@@ -1,0 +1,34 @@
+// RWD 螢幕尺寸
+$wide-pc-media: 1200px;
+$pc-media: 960px;
+$pad-media: 768px;
+$phone-media: 480px;
+
+// 顏色庫
+$color-primary-1: #ef3e35;
+$color-secondary: #6a9eff;
+$color-white: #fff;
+$color-g-300: #dbdbdb;
+$color-g-400: #c3c3c3;
+$color-g-500: #9b9b9b;
+$color-g-600: #757575;
+$color-g-700: #616161;
+$color-g-800: #4a4a4a;
+$color-g-900: #212121;
+$color-black: #000;
+
+$bd: $color-g-400;
+$hr: $color-g-300;
+
+$black-opacity-05: rgba($color-black, 0.5);
+$black-opacity-02: rgba($color-black, 0.2);
+
+$header-height: 64px;
+$header-bg: $color-white;
+$header-txt: $color-black;
+$header-title: $color-g-500;
+
+$fixed-top: 64px;
+$fixed-top-mobile: 64px;
+
+$default-font: 'sofia-pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
